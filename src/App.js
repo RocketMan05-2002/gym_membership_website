@@ -15,7 +15,7 @@ const App = () => {
       <Header />
       <Brand />
       <Services />
-      {/* Diet page */}
+      <Diet />
       {/* Exercises page */}
       {/* MemberShip plans page - take idea from the hospital website we created */}
     </div>

@@ -1,0 +1,73 @@
+.gym__bmi {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    width: 60vw;
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: rgb(98, 127, 67);
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gym__heading {
+    background-color: #093d06;
+    color: #fff;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.gym__input-section {
+    width: 100%;
+    margin: 10px;
+}
+
+.gym__slider-output {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.gym__input-slider {
+    width: 90%;
+    margin: 15px 0;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 12px;
+    background: #093d06;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.gym__input-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border: 3px solid #093d06;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gym__output-section {
+    font-size: 1rem;
+}
+
+.gym__output{
+    padding: 5px 8px;
+    background-color: #093d06;
+    border-radius: 50px;
+    color: #e0e8ff;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
